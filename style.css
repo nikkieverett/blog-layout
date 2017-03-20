@@ -1,0 +1,128 @@
+
+/*---------------------header-----------------------*/
+header {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+header img {
+  width:100%;
+}
+.circle #logo {
+  background-color: rgba(231, 158, 161, 1.0);
+  border: white 8px solid;
+  border-radius: 100px;
+  position: absolute;
+  bottom: -50px;
+  height: 150px;
+  left: 190px;
+  width: 150px;
+}
+.circle #logo p {
+  color: white;
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 5em;
+  padding-top: 45px;
+  padding-left: 26px;
+  text-transform: uppercase;
+}
+/*.circle .social {
+  background-color: rgba(231, 158, 161, 1.0);
+  border: white 8px solid;
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom: -50px;
+  right: 100px;
+  float: left;
+}
+
+
+/*-----------------body of page--------------------*/
+.container {
+  margin: 0 auto;
+  width: 80%;
+  /*outline: red 2px solid;*/
+  overflow: auto;
+
+}
+/*--------------------nav bar----------------------*/
+nav {
+  width: 30%;
+  /*outline: red 2px solid;*/
+  height: 100%;
+  float: left;
+}
+
+nav h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
+  margin-top: 55px;
+  padding: 15px;
+  font-family: 'Merriweather', serif;
+  /*outline: red 2px solid;*/
+}
+nav li {
+  font-family: 'nixie one', cursive;
+  font-weight: 300;
+  line-height: 2em;
+  /*outline: red 2px solid;*/
+  padding-left: 15px;
+}
+nav p {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  line-height: 2em;
+  margin-top: 10px;
+  font-size: 12px;
+  font-style: italic;
+  /*outline: red 2px solid;*/
+}
+
+/*----------------right column---------------------*/
+.column {
+  width: 60%;
+  float: left;
+  /*outline: red 2px solid;*/
+  padding-left: 2%;
+  padding-top: 15px;
+
+}
+/*--------------------entries-----------------------*/
+article h1 {
+  font-family: 'Poiret One', cursive;
+  font-size: 3em;
+  padding-top: 15px;
+  padding-left: 15px;
+  /*outline: red 2px solid;*/
+
+}
+article h2 {
+  font-family: 'nixie one', cursive;
+  font-weight: 300;
+  line-height: 2em;
+  /*outline: red 2px solid;*/
+  padding-left: 15px;
+
+}
+article p {
+  font-family: 'Merriweather', serif;
+  /*font-family: 'nixie one', cursive;*/
+  font-weight: 300;
+  line-height: 2em;
+  margin-top: 10px;
+  /*outline: red 2px solid;*/
+
+}
+/*------------------footer-----------------------*/
+footer {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  background-color: rgba(173, 204, 239, 1.0);
+  clear: both;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+}
