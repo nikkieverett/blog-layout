@@ -1,0 +1,37 @@
+header {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  img {
+    width:100%;
+  }
+}
+.circle #logo {
+  background-color: $main-color;
+  border: $white-color 8px solid;
+  border-radius: 100px;
+  position: absolute;
+  bottom: -50px;
+  height: 150px;
+  left: 190px;
+  width: 150px;
+ p {
+    color: $white-color;
+    font-family: $logo-font;
+    font-size: 5em;
+    padding-top: 45px;
+    padding-left: 26px;
+    text-transform: uppercase;
+  }
+}
+.circle .social {
+  background-color: $main-color;
+  border: $white-color 8px solid;
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom: -50px;
+  right: 100px;
+  float: left;
+}
