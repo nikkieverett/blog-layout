@@ -6,15 +6,28 @@ header {
     width:100%;
   }
 }
-.circle #logo {
-  background-color: $main-color;
-  border: $white-color 8px solid;
-  border-radius: 100px;
-  position: absolute;
-  bottom: -50px;
-  height: 150px;
-  left: 190px;
-  width: 150px;
+// .circle {
+//   background-color: $main-color;
+//   border: $white-color 8px solid;
+//   border-radius: 100px;
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   right: 0;
+
+.circle {
+  overflow: auto;
+}
+
+#logo {
+background-color: $main-color;
+border: $white-color 8px solid;
+border-radius: 100px;
+position: absolute;
+bottom: -50px;
+height: 150px;
+left: 190px;
+width: 150px;
  p {
     color: $white-color;
     font-family: $logo-font;
@@ -24,14 +37,36 @@ header {
     text-transform: uppercase;
   }
 }
-.circle .social {
+.social {
+  overflow: auto;
+  position: absolute;
+  bottom: -50px;
+  right: 100px;
+}
+
+
+#fb{
   background-color: $main-color;
   border: $white-color 8px solid;
   border-radius: 100px;
   height: 100px;
   width: 100px;
-  position: absolute;
-  bottom: -50px;
-  right: 100px;
+  float: left;
+
+}
+#insta {
+  background-color: $main-color;
+  border: $white-color 8px solid;
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+  float: left;
+
+}#git {
+  background-color: $main-color;
+  border: $white-color 8px solid;
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
   float: left;
 }
