@@ -52,13 +52,9 @@ header {
   margin: 0 auto;
   position: relative;
   width: 100%; }
-  /* line 5, _header.scss */
+  /* line 6, _header.scss */
   header img {
     width: 100%; }
-
-/* line 18, _header.scss */
-.circle {
-  overflow: auto; }
 
 /* line 22, _header.scss */
 #logo {
@@ -70,7 +66,7 @@ header {
   height: 150px;
   left: 190px;
   width: 150px; }
-  /* line 31, _header.scss */
+  /* line 33, _header.scss */
   #logo p {
     color: white;
     font-family: "Baloo Bhaina", cursive;
@@ -79,14 +75,14 @@ header {
     padding-left: 26px;
     text-transform: uppercase; }
 
-/* line 40, _header.scss */
+/* line 43, _header.scss */
 .social {
   overflow: auto;
   position: absolute;
   bottom: -50px;
   right: 100px; }
 
-/* line 48, _header.scss */
+/* line 52, _header.scss */
 #fb {
   background-color: #e79ea1;
   border: white 8px solid;
@@ -95,7 +91,7 @@ header {
   width: 100px;
   float: left; }
 
-/* line 57, _header.scss */
+/* line 61, _header.scss */
 #insta {
   background-color: #e79ea1;
   border: white 8px solid;
@@ -104,7 +100,7 @@ header {
   width: 100px;
   float: left; }
 
-/* line 65, _header.scss */
+/* line 69, _header.scss */
 #git {
   background-color: #e79ea1;
   border: white 8px solid;
