@@ -1,76 +1,64 @@
+//header background image
 header {
   margin: 0 auto;
   position: relative;
   width: 100%;
-
-  img {
-    width:100%;
-  }
 }
-// .circle {
-//   background-color: $main-color;
-//   border: $white-color 8px solid;
-//   border-radius: 100px;
-//   position: absolute;
-//   left: 0;
-//   top: 0;
-//   right: 0;
+.header-image {
+  background-image: url(images/header.PNG);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  transition: 5s;
+}
 
-// .circle {
-// }
-
-#logo {
+//logo
+.logo, #linkdin, #insta, #git {
   background-color: $main-color;
   border: $white-color 8px solid;
   border-radius: 100px;
-  position: absolute;
-  bottom: -50px;
+}
+.logo {
+  position: fixed;
   height: 150px;
-  left: 190px;
+  left: 70px;
+  top: -50px;
   width: 150px;
-
-
- p {
+  transition: 3s;
+  p {
     color: $white-color;
     font-family: $logo-font;
     font-size: 5em;
-    padding-top: 45px;
+    padding-top: 50px;
     padding-left: 26px;
     text-transform: uppercase;
-
   }
 }
+
+//social media links
 .social {
   overflow: auto;
-  position: absolute;
-  bottom: -50px;
-  right: 100px;
+  position: fixed;
+  top: 10px;
+  right: 40px;
 
 }
-
-
-#fb{
-  background-color: $main-color;
-  border: $white-color 8px solid;
-  border-radius: 100px;
-  height: 100px;
-  width: 100px;
-  float: left;
-
+#linkdin, #insta, #git {
+  height: 50px;
+  width: 50px;
+  background-position: center;
+  background-size: 120%;
+  float:right;
+  transition: 5s;
 }
-#insta {
-  background-color: $main-color;
-  border: $white-color 8px solid;
-  border-radius: 100px;
-  height: 100px;
-  width: 100px;
-  float: left;
-
-}#git {
-  background-color: $main-color;
-  border: $white-color 8px solid;
-  border-radius: 100px;
-  height: 100px;
-  width: 100px;
-  float: left;
+#git img{
+  width: 90%;
+  margin: 5px 0 0 3px;
+}
+#insta img, #linkdin img {
+  width: 100%;
+}
+#linkdin img{
+  width: 75%;
+  padding: 5px 0 0 7px;
 }

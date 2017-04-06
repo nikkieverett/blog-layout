@@ -47,73 +47,105 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 1, _header.scss */
+/* line 2, _header.scss */
 header {
   margin: 0 auto;
   position: relative;
   width: 100%; }
-  /* line 6, _header.scss */
-  header img {
-    width: 100%; }
 
-/* line 22, _header.scss */
-#logo {
+/* line 7, _header.scss */
+.header-image {
+  background-image: url(images/header.PNG);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  transition: 5s; }
+
+/* line 16, _header.scss */
+.logo, #linkdin, #insta, #git {
   background-color: #e79ea1;
   border: white 8px solid;
-  border-radius: 100px;
-  position: absolute;
-  bottom: -50px;
+  border-radius: 100px; }
+
+/* line 21, _header.scss */
+.logo {
+  position: fixed;
   height: 150px;
-  left: 190px;
-  width: 150px; }
-  /* line 33, _header.scss */
-  #logo p {
+  left: 70px;
+  top: -50px;
+  width: 150px;
+  transition: 3s; }
+  /* line 28, _header.scss */
+  .logo p {
     color: white;
     font-family: "Baloo Bhaina", cursive;
     font-size: 5em;
-    padding-top: 45px;
+    padding-top: 50px;
     padding-left: 26px;
     text-transform: uppercase; }
 
-/* line 43, _header.scss */
+/* line 39, _header.scss */
 .social {
   overflow: auto;
-  position: absolute;
-  bottom: -50px;
-  right: 100px; }
+  position: fixed;
+  top: 10px;
+  right: 40px; }
 
-/* line 52, _header.scss */
-#fb {
-  background-color: #e79ea1;
-  border: white 8px solid;
-  border-radius: 100px;
-  height: 100px;
-  width: 100px;
-  float: left; }
+/* line 46, _header.scss */
+#linkdin, #insta, #git {
+  height: 50px;
+  width: 50px;
+  background-position: center;
+  background-size: 120%;
+  float: right;
+  transition: 5s; }
+
+/* line 54, _header.scss */
+#git img {
+  width: 90%;
+  margin: 5px 0 0 3px; }
+
+/* line 58, _header.scss */
+#insta img, #linkdin img {
+  width: 100%; }
 
 /* line 61, _header.scss */
-#insta {
-  background-color: #e79ea1;
-  border: white 8px solid;
-  border-radius: 100px;
-  height: 100px;
-  width: 100px;
-  float: left; }
-
-/* line 69, _header.scss */
-#git {
-  background-color: #e79ea1;
-  border: white 8px solid;
-  border-radius: 100px;
-  height: 100px;
-  width: 100px;
-  float: left; }
+#linkdin img {
+  width: 75%;
+  padding: 5px 0 0 7px; }
 
 /* line 1, _body.scss */
 .container {
-  margin: 0 auto;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
   width: 80%;
-  overflow: auto; }
+  overflow: auto;
+  background-color: white;
+  transition: 3s; }
+
+/* line 2, _header-transitions.scss */
+.resize-image {
+  width: 100%;
+  height: 20px; }
+
+/* line 7, _header-transitions.scss */
+.resize-logo-to-nav {
+  width: 100%;
+  margin: 0 auto;
+  height: 150px;
+  left: -10px;
+  border-radius: 0;
+  bottom: -500; }
+
+/* line 15, _header-transitions.scss */
+.increase-body-margin {
+  margin-top: 350px; }
+
+/* line 18, _header-transitions.scss */
+.color-change {
+  background-color: #adccef; }
 
 /* line 1, _navbar.scss */
 nav {

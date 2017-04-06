@@ -1,0 +1,20 @@
+//resizes header background to hide it
+.resize-image{
+  width:100%;
+  height: 20px;
+}
+//resizes logo to become nav bar
+.resize-logo-to-nav{
+  width: 100%;
+  margin: 0 auto;
+  height: 150px;
+  left: -10px;
+  border-radius: 0;
+  bottom: -500;
+}
+.increase-body-margin {
+  margin-top: 350px;
+}
+.color-change {
+  background-color: rgba(173, 204, 239, 1.0);
+}
